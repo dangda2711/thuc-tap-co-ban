@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1584205420 source:c:\users\admin\downloads\dadx1_asignment 8_op1\main.cpp
+	<iostream>
+
+1629623288 source:c:\users\admin\downloads\dadx1_asignment 8_op1\bai 1.cpp
+	<iostream>
+
+1629623563 source:c:\users\admin\downloads\dadx1_asignment 8_op1\bai 2.cpp
+	<iostream>
+	<math.h>
+

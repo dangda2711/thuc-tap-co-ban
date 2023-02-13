@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1630767411 source:c:\users\admin\downloads\dsa_assignment 3\main.cpp
+	<iostream>
+	<cstring>
+	<iomanip>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1584205420 source:c:\users\admin\downloads\dadx1_ assignment 7\main.cpp
+	<iostream>
+
+1629385124 source:c:\users\admin\downloads\dadx1_ assignment 7\bai 1.cpp
+	<iostream>
+	<string.h>
+

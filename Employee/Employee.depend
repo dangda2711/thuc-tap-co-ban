@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1630250938 source:e:\fa\demo\employee\main.cpp
+	<iostream>
+	"Congty.h"
+	"CongtyVector.h"
+
+1630248094 source:e:\fa\demo\employee\src\nhanvien.cpp
+	"NhanVien.h"
+
+1630247725 e:\fa\demo\employee\include\nhanvien.h
+	<iostream>
+
+1630247836 source:e:\fa\demo\employee\src\nhanviensanxuat.cpp
+	"NhanVienSanXuat.h"
+
+1630246973 e:\fa\demo\employee\include\nhanviensanxuat.h
+	"NhanVien.h"
+
+1630247833 source:e:\fa\demo\employee\src\nhanvienvanphong.cpp
+	"NhanVienVanPhong.h"
+
+1630247245 e:\fa\demo\employee\include\nhanvienvanphong.h
+	"NhanVien.h"
+
+1630250667 e:\fa\demo\employee\include\congty.h
+	<iostream>
+	"NhanVien.h"
+
+1630250810 source:e:\fa\demo\employee\src\congty.cpp
+	"Congty.h"
+	"NhanVienSanXuat.h"
+	"NhanVienVanPhong.h"
+
+1630250312 source:e:\fa\demo\employee\src\congtyvector.cpp
+	"CongtyVector.h"
+	"NhanVienSanXuat.h"
+	"NhanVienVanPhong.h"
+
+1630250339 e:\fa\demo\employee\include\congtyvector.h
+	<iostream>
+	<vector>
+	"NhanVien.h"
+

@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1629261698 source:c:\users\admin\downloads\assignment 10\child2.c
+	"methodRedefine.h"
+	"duplicateVariableDeclaretion.h"
+
+1629261930 c:\users\admin\downloads\assignment 10\methodredefine.h
+
+1629262511 source:c:\users\admin\downloads\assignment 10\main.cpp
+	<iostream>
+	"test.h"
+
+1629261698 source:c:\users\admin\downloads\assignment 10\child1.c
+	"methodRedefine.h"
+	"duplicateVariableDeclaretion.h"
+
+1629261937 c:\users\admin\downloads\assignment 10\duplicatevariabledeclaretion.h
+
+1629263372 c:\users\admin\downloads\assignment 10\test.h
+
+1629261698 source:c:\users\admin\downloads\dadx1_assignment 10\child1.c
+	"methodRedefine.h"
+	"duplicateVariableDeclaretion.h"
+
+1629261930 c:\users\admin\downloads\dadx1_assignment 10\methodredefine.h
+
+1629261937 c:\users\admin\downloads\dadx1_assignment 10\duplicatevariabledeclaretion.h
+
+1629261698 source:c:\users\admin\downloads\dadx1_assignment 10\child2.c
+	"methodRedefine.h"
+	"duplicateVariableDeclaretion.h"
+
+1629271904 source:c:\users\admin\downloads\dadx1_assignment 10\main.cpp
+	<iostream>
+	"test.h"
+
+1629271904 c:\users\admin\downloads\dadx1_assignment 10\test.h
+

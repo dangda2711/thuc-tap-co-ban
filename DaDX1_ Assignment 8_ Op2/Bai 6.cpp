@@ -1,0 +1,46 @@
+class ZooAnimal
+ {
+ protected:
+ char* name;
+ int cageNumber;
+ int weightDate;
+ int weight;
+ public:
+ ZooAnimal (char*, int, int, int); // constructor function
+ inline ~ZooAnimal () { delete [] name; }; // destructor function
+ void changeWeight (int pounds);
+ char* reptName ();
+ int reptWeight (){return weight;}
+ int daysSinceLastWeighed (int today);
+ };
+ class Mammal
+ {
+ protected:
+ float minimumVolume;
+ int weight;
+ public:
+ Mammal (float, int); // constructor function
+ inline ~Mammal () {}; // destructor function
+ float reptminimumVolume ();
+ int reptWeight ();
+ };
+ class LargeAnimal : public ZooAnimal, public Mammal
+ {
+ protected:
+ char* species;
+ float cageMinimumVolume;
+ public:
+ LargeAnimal (char*, int, int, int, float, float, int); // constructor
+ inline ~LargeAnimal () { delete [] species; }; // destructor function
+ float reptCageMinimumVolume ();
+ };
+ // -------- member function to return the minimum cage volume
+ // -------- needed for this large animal
+ float LargeAnimal::reptCageMinimumVolume ()
+ {
+ if (Mammal::weight < 500)
+ return cageMinimumVolume;
+ else
+ return ZooAnimal::reptWeight();// thêm ZooAnimal :: phương thức của lớp ZooAnimal là hàm reptWeight
+ }
+
